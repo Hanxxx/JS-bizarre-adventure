@@ -7,13 +7,21 @@
       p {
         font-family: sans-serif;
       }
+      .button {
+        border: none;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+      }
     </style>
   </head>
   <body>
-    <p class="clock"></p>
-    <button type="button" class="start">start</button>
-    <button type="button" class="stop" disabled>stop</button>
-    <button type="button" class="reset">reset</button>
+    <p style="font-size:400%;" class="clock"></p>
+    <button type="button" class="button start">start</button>
+    <button type="button" class="button stop" disabled>stop</button>
+    <button type="button" class="button reset">reset</button>
     <script>
       let timer, startTS;
       let AccuTimeBeforeStop = 0;
