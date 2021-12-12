@@ -1,3 +1,5 @@
-## JS Bizzarre Adventure
+# JS Bizzarre Adventure
+A place for dumping my tiny projects through learning Javascript! 
 
-initial commit.
+## Project List
+- [Stopwatch](./MDN-Async/interval_stopwatch.html)
